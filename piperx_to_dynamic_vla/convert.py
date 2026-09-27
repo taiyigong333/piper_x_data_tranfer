@@ -174,13 +174,15 @@ def convert_dataset(input_root: Path, output_root: Path, fps: int = 30, overwrit
     (output_root / "meta" / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
     with (output_root / "meta" / "tasks.jsonl").open("w", encoding="utf-8") as f:
         f.write(json.dumps({"task_index": 0, "task": records[0]["instruction"]}, ensure_ascii=False) + "\n")
-    with (output_root / "meta" / "episodes.jsonl").open("w", encoding="utf-8") as f:
+    with (output_root / "meta" / "episodes.jsonl").open("w", encoding="utf-8") as episode_file, (output_root / "meta" / "episodes_stats.jsonl").open("w", encoding="utf-8") as stats_file:
         for r in records:
             ep_stats = {
                 "action": _stats(r["action"]),
                 "observation.state": _stats(r["state"]),
             }
-            f.write(json.dumps({"episode_index": r["episode_index"], "tasks": [r["instruction"]], "length": r["length"], "stats": ep_stats}, ensure_ascii=False) + "\n")
+            # DynamicVLA 写出的是 v2.1 的双清单格式，loader 分别读取 episode 和 episode stats。
+            episode_file.write(json.dumps({"episode_index": r["episode_index"], "tasks": r["instruction"], "length": r["length"]}, ensure_ascii=False) + "\n")
+            stats_file.write(json.dumps({"episode_index": r["episode_index"], "stats": ep_stats}, ensure_ascii=False) + "\n")
     return {"episodes": len(records), "frames": total_frames, "output": str(output_root), "source_files": [str(p) for p in episodes]}
 
 
