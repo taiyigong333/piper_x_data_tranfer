@@ -70,12 +70,55 @@ def _state_from_hdf5(f: h5py.File, n: int) -> np.ndarray:
     return state
 
 
+def _is_publishable_episode(path: Path) -> bool:
+    """只接受正式 forward 目录中的轨迹，排除采集器的 staging 文件。"""
+    return path.is_file() and ".staging" not in path.parts and "forward" in path.parts
+
+
 def _episode_files(input_root: Path) -> list[Path]:
-    # 目录名明确限定 forward，避免把 reverse 轨迹混入训练集。
-    return sorted(
-        path for path in input_root.glob("batch_*/**/forward/*_trajectory.hdf5")
-        if ".staging" not in path.parts
+    """发现单个输入目录中的新旧两种轨迹文件名。"""
+    if input_root.is_file():
+        if input_root.suffix not in {".h5", ".hdf5"}:
+            raise ValueError(f"输入文件不是 HDF5: {input_root}")
+        return [input_root]
+    if not input_root.is_dir():
+        raise FileNotFoundError(f"输入路径不存在: {input_root}")
+
+    patterns = ("*/forward/trajectory.hdf5", "*/forward/*_trajectory.hdf5")
+    paths = {
+        path
+        for pattern in patterns
+        for path in input_root.glob(pattern)
+        if _is_publishable_episode(path)
+    }
+    return sorted(paths)
+
+
+def discover_inputs(input_root: Path) -> list[tuple[str, Path, list[Path]]]:
+    """将文件、单个 batch 或包含多个 batch 的数据根目录解析为转换任务。"""
+    if input_root.is_file():
+        # 向上回到 collection 目录，使 convert_dataset 能按普通 episode 目录处理。
+        return [(input_root.stem, input_root.parent.parent, [input_root])]
+    if not input_root.is_dir():
+        raise FileNotFoundError(f"输入路径不存在: {input_root}")
+
+    batch_dirs = sorted(
+        path for path in input_root.glob("batch_*") if path.is_dir()
     )
+    if batch_dirs:
+        tasks = []
+        for batch_dir in batch_dirs:
+            episodes = _episode_files(batch_dir)
+            if episodes:
+                tasks.append((batch_dir.name, batch_dir, episodes))
+        if not tasks:
+            raise FileNotFoundError(f"没有在任何 batch 中找到 forward HDF5: {input_root}")
+        return tasks
+
+    episodes = _episode_files(input_root)
+    if not episodes:
+        raise FileNotFoundError(f"没有找到 forward HDF5: {input_root}")
+    return [(input_root.name, input_root, episodes)]
 
 
 def _write_video(frames: list[np.ndarray], path: Path, fps: int) -> None:
@@ -139,8 +182,14 @@ def _convert_episode(source: Path, output: Path, episode_index: int, fps: int) -
     return {"episode_index": episode_index, "length": n, "instruction": instruction, "state": state, "action": action}
 
 
-def convert_dataset(input_root: Path, output_root: Path, fps: int = 30, overwrite: bool = False) -> dict:
-    episodes = _episode_files(input_root)
+def convert_dataset(
+    input_root: Path,
+    output_root: Path,
+    fps: int = 30,
+    overwrite: bool = False,
+    episode_paths: list[Path] | None = None,
+) -> dict:
+    episodes = sorted(episode_paths) if episode_paths is not None else _episode_files(input_root)
     if not episodes:
         raise FileNotFoundError(f"没有找到正向轨迹: {input_root}/batch_*/**/forward/*_trajectory.hdf5")
     if output_root.exists() and any(output_root.iterdir()):
@@ -189,13 +238,22 @@ def convert_dataset(input_root: Path, output_root: Path, fps: int = 30, overwrit
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, required=True)
-    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--output", type=Path, required=True, help="单 batch 输出目录或多 batch 输出根目录")
     parser.add_argument("--fps", type=int, default=30)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--log-level", default="INFO")
     args = parser.parse_args()
     logging.basicConfig(level=getattr(logging, args.log_level.upper()), format="%(levelname)s %(message)s")
-    print(json.dumps(convert_dataset(args.input, args.output, args.fps, args.overwrite), ensure_ascii=False, indent=2))
+    tasks = discover_inputs(args.input)
+    input_path = args.input.resolve()
+    multi_batch = args.input.is_dir() and any(
+        batch_root.resolve() != input_path for _, batch_root, _ in tasks
+    )
+    results = []
+    for name, batch_root, episodes in tasks:
+        output = args.output / name if multi_batch else args.output
+        results.append(convert_dataset(batch_root, output, args.fps, args.overwrite, episode_paths=episodes))
+    print(json.dumps({"batches": results}, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
