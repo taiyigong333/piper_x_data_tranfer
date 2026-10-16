@@ -1,0 +1,267 @@
+{
+  "purpose": "用于数据采集的参数2026/10/7",
+  "cameras": [
+    {
+      "name": "camera_front",
+      "driver": "realsense",
+      "model": "RealSense_D435",
+      "serial_number": "263022073726",
+      "width": 640,
+      "height": 480,
+      "fps": 30,
+      "color_order": "rgb",
+      "enabled": true,
+      "align_depth_to_color": true,
+      "depth_width": 640,
+      "depth_height": 480,
+      "options": {
+        "exposure": 150.0,
+        "white_balance": 4600.0,
+        "enable_auto_exposure": 0.0,
+        "enable_auto_white_balance": 0.0,
+        "gain": 48.0,
+        "brightness": 0.0,
+        "contrast": 50.0,
+        "saturation": 64.0,
+        "sharpness": 50.0,
+        "gamma": 300.0,
+        "hue": 0.0,
+        "power_line_frequency": 3.0
+      }
+    },
+    {
+      "name": "camera_wrist_right",
+      "driver": "realsense",
+      "model": "RealSense_D405",
+      "serial_number": "419122270341",
+      "width": 640,
+      "height": 480,
+      "fps": 30,
+      "color_order": "rgb",
+      "enabled": true,
+      "align_depth_to_color": true,
+      "depth_width": 640,
+      "depth_height": 480,
+      "options": {
+        "exposure": 4000.0,
+        "white_balance": 4600.0,
+        "enable_auto_exposure": 0.0,
+        "enable_auto_white_balance": 0.0,
+        "gain": 64.0,
+        "brightness": 0.0,
+        "contrast": 50.0,
+        "saturation": 64.0,
+        "sharpness": 49.0,
+        "gamma": 300.0,
+        "hue": 0.0,
+        "power_line_frequency": 3.0
+      }
+    }
+  ],
+  "devices": {
+    "camera_front": {
+      "device_info": {
+        "name": "Intel RealSense D435I",
+        "serial_number": "263022073726",
+        "firmware_version": "5.15.1.55",
+        "product_line": "D400"
+      },
+      "sdk_version": "2.58.2",
+      "sensors": [
+        {
+          "info": {
+            "name": "Stereo Module"
+          },
+          "options": {
+            "exposure": {
+              "value": 150.0
+            },
+            "enable_auto_exposure": {
+              "value": 0.0
+            },
+            "gain": {
+              "value": 48.0
+            }
+          }
+        },
+        {
+          "info": {
+            "name": "RGB Camera"
+          },
+          "options": {
+            "exposure": {
+              "value": 150.0
+            },
+            "white_balance": {
+              "value": 4600.0
+            },
+            "enable_auto_exposure": {
+              "value": 0.0
+            },
+            "enable_auto_white_balance": {
+              "value": 0.0
+            },
+            "gain": {
+              "value": 48.0
+            },
+            "brightness": {
+              "value": 0.0
+            },
+            "contrast": {
+              "value": 50.0
+            },
+            "saturation": {
+              "value": 64.0
+            },
+            "sharpness": {
+              "value": 50.0
+            },
+            "gamma": {
+              "value": 300.0
+            },
+            "hue": {
+              "value": 0.0
+            },
+            "power_line_frequency": {
+              "value": 3.0
+            }
+          }
+        }
+      ],
+      "streams": {
+        "color": {
+          "width": 640,
+          "height": 480,
+          "fps": 30.0,
+          "format": "bgr8"
+        }
+      },
+      "configured_options": {
+        "exposure": 150.0,
+        "white_balance": 4600.0,
+        "enable_auto_exposure": 0.0,
+        "enable_auto_white_balance": 0.0,
+        "gain": 48.0,
+        "brightness": 0.0,
+        "contrast": 50.0,
+        "saturation": 64.0,
+        "sharpness": 50.0,
+        "gamma": 300.0,
+        "hue": 0.0,
+        "power_line_frequency": 3.0
+      },
+      "calibration": {
+        "color_intrinsics": {
+          "width": 640,
+          "height": 480,
+          "fx": 606.4737548828125,
+          "fy": 605.2252807617188,
+          "ppx": 325.0398254394531,
+          "ppy": 251.5495147705078,
+          "model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "camera_wrist_right": {
+      "device_info": {
+        "name": "Intel RealSense D405",
+        "serial_number": "419122270341",
+        "firmware_version": "5.16.0.1",
+        "product_line": "D400"
+      },
+      "sdk_version": "2.58.2",
+      "sensors": [
+        {
+          "info": {
+            "name": "Stereo Module"
+          },
+          "options": {
+            "exposure": {
+              "value": 4000.0
+            },
+            "white_balance": {
+              "value": 4600.0
+            },
+            "enable_auto_exposure": {
+              "value": 0.0
+            },
+            "enable_auto_white_balance": {
+              "value": 0.0
+            },
+            "gain": {
+              "value": 64.0
+            },
+            "brightness": {
+              "value": 0.0
+            },
+            "contrast": {
+              "value": 50.0
+            },
+            "saturation": {
+              "value": 64.0
+            },
+            "sharpness": {
+              "value": 49.0
+            },
+            "gamma": {
+              "value": 300.0
+            },
+            "hue": {
+              "value": 0.0
+            },
+            "power_line_frequency": {
+              "value": 3.0
+            }
+          }
+        }
+      ],
+      "streams": {
+        "color": {
+          "width": 640,
+          "height": 480,
+          "fps": 30.0,
+          "format": "bgr8"
+        }
+      },
+      "configured_options": {
+        "exposure": 4000.0,
+        "white_balance": 4600.0,
+        "enable_auto_exposure": 0.0,
+        "enable_auto_white_balance": 0.0,
+        "gain": 64.0,
+        "brightness": 0.0,
+        "contrast": 50.0,
+        "saturation": 64.0,
+        "sharpness": 49.0,
+        "gamma": 300.0,
+        "hue": 0.0,
+        "power_line_frequency": 3.0
+      },
+      "calibration": {
+        "color_intrinsics": {
+          "width": 640,
+          "height": 480,
+          "fx": 393.1961669921875,
+          "fy": 392.61639404296875,
+          "ppx": 316.5106506347656,
+          "ppy": 229.9581756591797,
+          "model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05470449477434158,
+            0.055831726640462875,
+            0.0007175425998866558,
+            0.0006199476192705333,
+            -0.017803439870476723
+          ]
+        }
+      }
+    }
+  }
+}

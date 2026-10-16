@@ -1,0 +1,83 @@
+# 旋转平台红色方块 -> 蓝色盘子任务的现场采集配置。
+# 反向轨迹使用同一份配置和同一条语言指令，采集完成后再离线倒放第二条轨迹。
+session:
+  output_root: /home/cv/gcj/data_collect/data/rotating_red_square
+  data_type: real
+  language_instruction: "grab the rotating red square"
+  collector_hash: "taiyigong"
+  format_version: "1.0.0"
+  # 手动递增；不同批次写入不同的 batch_<数字> 目录。
+  batch_tag: 4
+  camera_parameters_file: /home/cv/gcj/project/data_collect/piper-x-witch-pica/configs/camera/d405_d435i_2026_10_7.json
+  reverse_recording_enabled: false
+  duration_s: 60
+  pose_representation: xyz_rxryrz
+  hdf5:
+    queue_size: 256
+    batch_size: 16
+    flush_every_batches: 10
+    queue_put_timeout_s: 2.0
+    jpeg_quality: 95
+
+modalities:
+  rgb: true
+  depth: false
+  arm_joint_positions: true
+  tcp_pose: true
+  gripper_position: true
+
+acquisition:
+  robot_hz: 60
+  camera_rig_hz: 30
+  max_alignment_age_ms: 100
+
+cameras:
+  - name: camera_front
+    driver: realsense
+    model: RealSense_D435
+    serial_number: "263022073726"
+    width: 640
+    height: 480
+    depth_width: 640
+    depth_height: 480
+    fps: 30
+    color_order: rgb
+    enabled: true
+    align_depth_to_color: true
+    base_to_camera: null
+  - name: camera_wrist_right
+    driver: realsense
+    model: RealSense_D405
+    serial_number: "419122270341"
+    width: 640
+    height: 480
+    depth_width: 640
+    depth_height: 480
+    fps: 30
+    color_order: rgb
+    enabled: true
+    align_depth_to_color: true
+    base_to_camera: null
+
+robot:
+  name: piper_x
+  driver: piper_x
+  joint_count: 6
+  can_name: can0
+  firmware_version: default
+  tool_offset_m: [0.0, 0.0, 0.0]
+  base_to_robot: null
+  initial_pose:
+    enabled: true
+    mode: joint
+    joint_positions_rad: [0.0111352006, 0.8443379322, -1.0155198253, 1.1606788592, 0.0746477321, 0.0196698607]
+    tcp_pose: null
+    speed_percent: 10
+    timeout_s: 20
+    joint_tolerance_rad: 0.035
+    position_tolerance_m: 0.01
+    orientation_tolerance_rad: 0.1
+
+gripper:
+  enabled: true
+  driver: piper_x

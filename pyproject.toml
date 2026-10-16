@@ -1,0 +1,24 @@
+[project]
+name = "piperx-to-openpi-vla"
+version = "0.1.0"
+description = "Convert Piper-X forward trajectories to OpenPI-compatible LeRobot datasets."
+requires-python = ">=3.10"
+dependencies = [
+  "h5py>=3.10",
+  "numpy>=1.24,<2.0",
+  "opencv-python>=4.8",
+  "pandas>=2.0",
+  "pyarrow>=14.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3"]
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+packages = ["piperx_to_openpi_vla"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
