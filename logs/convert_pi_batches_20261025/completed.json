@@ -1,0 +1,53 @@
+{
+  "finished_at": "2026-10-25T17:16:21.992462+08:00",
+  "batches": [
+    {
+      "episodes": 104,
+      "frames": 10333,
+      "output": "/home/cv/gcj/project/data_transfer/to_pi/after_tranfer/batch_2",
+      "batches": [
+        "batch_2"
+      ],
+      "batch": "batch_2",
+      "videos": 208,
+      "validated": true,
+      "validation": "全量来源SHA256、Parquet数值、标签、索引与全部视频解码通过；未运行真实LeRobot loader或训练"
+    },
+    {
+      "episodes": 88,
+      "frames": 7840,
+      "output": "/home/cv/gcj/project/data_transfer/to_pi/after_tranfer/batch_3",
+      "batches": [
+        "batch_3"
+      ],
+      "batch": "batch_3",
+      "videos": 176,
+      "validated": true,
+      "validation": "全量来源SHA256、Parquet数值、标签、索引与全部视频解码通过；未运行真实LeRobot loader或训练"
+    },
+    {
+      "episodes": 98,
+      "frames": 12386,
+      "output": "/home/cv/gcj/project/data_transfer/to_pi/after_tranfer/batch_4",
+      "batches": [
+        "batch_4"
+      ],
+      "batch": "batch_4",
+      "videos": 196,
+      "validated": true,
+      "validation": "全量来源SHA256、Parquet数值、标签、索引与全部视频解码通过；未运行真实LeRobot loader或训练"
+    },
+    {
+      "episodes": 104,
+      "frames": 14162,
+      "output": "/home/cv/gcj/project/data_transfer/to_pi/after_tranfer/batch_5",
+      "batches": [
+        "batch_5"
+      ],
+      "batch": "batch_5",
+      "videos": 208,
+      "validated": true,
+      "validation": "全量来源SHA256、Parquet数值、标签、索引与全部视频解码通过；未运行真实LeRobot loader或训练"
+    }
+  ]
+}

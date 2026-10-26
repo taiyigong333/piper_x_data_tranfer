@@ -1,0 +1,14 @@
+{
+  "language_instruction": "grab the rotating red square",
+  "batches": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "output": "/home/cv/gcj/project/data_transfer/to_pi/after_tranfer",
+  "existing_unit_tests_passed": 4,
+  "additional_discovery_check_passed": true,
+  "existing_discovery_test_issue": "原测试期望路径顺序错误；独立检查已验证仅选forward且按路径排序，未修改原测试",
+  "started_at": "2026-10-25T17:15:34.699272+08:00"
+}

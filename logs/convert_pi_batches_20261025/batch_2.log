@@ -1,0 +1,210 @@
+2026-10-25 17:15:36,265 INFO 处理 batch_2：104 条正向轨迹
+2026-10-25 17:15:36,265 INFO [0] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T220503090624/forward/trajectory.hdf5
+2026-10-25 17:15:36,663 INFO [1] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T220531461734/forward/trajectory.hdf5
+2026-10-25 17:15:37,330 INFO [2] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T220550046766/forward/trajectory.hdf5
+2026-10-25 17:15:37,694 INFO [3] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T220602382006/forward/trajectory.hdf5
+2026-10-25 17:15:38,144 INFO [4] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T220614940085/forward/trajectory.hdf5
+2026-10-25 17:15:38,454 INFO [5] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T220633865437/forward/trajectory.hdf5
+2026-10-25 17:15:38,745 INFO [6] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221325760859/forward/trajectory.hdf5
+2026-10-25 17:15:39,204 INFO [7] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221356083268/forward/trajectory.hdf5
+2026-10-25 17:15:39,627 INFO [8] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221414227261/forward/trajectory.hdf5
+2026-10-25 17:15:39,911 INFO [9] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221428833361/forward/trajectory.hdf5
+2026-10-25 17:15:40,204 INFO [10] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221446318677/forward/trajectory.hdf5
+2026-10-25 17:15:40,532 INFO [11] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221504360337/forward/trajectory.hdf5
+2026-10-25 17:15:40,851 INFO [12] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221518935113/forward/trajectory.hdf5
+2026-10-25 17:15:41,217 INFO [13] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221615555335/forward/trajectory.hdf5
+2026-10-25 17:15:41,486 INFO [14] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221632812171/forward/trajectory.hdf5
+2026-10-25 17:15:41,828 INFO [15] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221645912096/forward/trajectory.hdf5
+2026-10-25 17:15:42,149 INFO [16] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221710877483/forward/trajectory.hdf5
+2026-10-25 17:15:42,406 INFO [17] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221727937407/forward/trajectory.hdf5
+2026-10-25 17:15:42,745 INFO [18] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221741194723/forward/trajectory.hdf5
+2026-10-25 17:15:43,116 INFO [19] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221758032653/forward/trajectory.hdf5
+2026-10-25 17:15:43,406 INFO [20] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221809215074/forward/trajectory.hdf5
+2026-10-25 17:15:43,767 INFO [21] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221827919957/forward/trajectory.hdf5
+2026-10-25 17:15:44,052 INFO [22] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221840307163/forward/trajectory.hdf5
+2026-10-25 17:15:44,406 INFO [23] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221854711129/forward/trajectory.hdf5
+2026-10-25 17:15:44,721 INFO [24] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221906350014/forward/trajectory.hdf5
+2026-10-25 17:15:45,054 INFO [25] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221919990562/forward/trajectory.hdf5
+2026-10-25 17:15:45,452 INFO [26] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T221938435419/forward/trajectory.hdf5
+2026-10-25 17:15:45,805 INFO [27] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222452093863/forward/trajectory.hdf5
+2026-10-25 17:15:46,173 INFO [28] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222506978515/forward/trajectory.hdf5
+2026-10-25 17:15:46,445 INFO [29] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222521981920/forward/trajectory.hdf5
+2026-10-25 17:15:46,782 INFO [30] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222546932809/forward/trajectory.hdf5
+2026-10-25 17:15:47,095 INFO [31] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222601216929/forward/trajectory.hdf5
+2026-10-25 17:15:47,388 INFO [32] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222615170494/forward/trajectory.hdf5
+2026-10-25 17:15:47,681 INFO [33] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222726540426/forward/trajectory.hdf5
+2026-10-25 17:15:47,980 INFO [34] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222737930246/forward/trajectory.hdf5
+2026-10-25 17:15:48,238 INFO [35] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222750147328/forward/trajectory.hdf5
+2026-10-25 17:15:48,551 INFO [36] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222802532562/forward/trajectory.hdf5
+2026-10-25 17:15:48,795 INFO [37] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222815925349/forward/trajectory.hdf5
+2026-10-25 17:15:49,064 INFO [38] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T222831200547/forward/trajectory.hdf5
+2026-10-25 17:15:49,369 INFO [39] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223130166697/forward/trajectory.hdf5
+2026-10-25 17:15:49,746 INFO [40] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223145920666/forward/trajectory.hdf5
+2026-10-25 17:15:50,010 INFO [41] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223200996916/forward/trajectory.hdf5
+2026-10-25 17:15:50,321 INFO [42] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223217107705/forward/trajectory.hdf5
+2026-10-25 17:15:50,599 INFO [43] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223238820924/forward/trajectory.hdf5
+2026-10-25 17:15:50,870 INFO [44] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223323584345/forward/trajectory.hdf5
+2026-10-25 17:15:51,113 INFO [45] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223347997318/forward/trajectory.hdf5
+2026-10-25 17:15:51,340 INFO [46] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223409548785/forward/trajectory.hdf5
+2026-10-25 17:15:51,605 INFO [47] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223426453713/forward/trajectory.hdf5
+2026-10-25 17:15:51,902 INFO [48] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223439919695/forward/trajectory.hdf5
+2026-10-25 17:15:52,192 INFO [49] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223458245899/forward/trajectory.hdf5
+2026-10-25 17:15:52,486 INFO [50] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223514184908/forward/trajectory.hdf5
+2026-10-25 17:15:52,788 INFO [51] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223526614380/forward/trajectory.hdf5
+2026-10-25 17:15:53,068 INFO [52] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223547339087/forward/trajectory.hdf5
+2026-10-25 17:15:53,407 INFO [53] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223602219194/forward/trajectory.hdf5
+2026-10-25 17:15:53,681 INFO [54] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223616010223/forward/trajectory.hdf5
+2026-10-25 17:15:53,988 INFO [55] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223632926611/forward/trajectory.hdf5
+2026-10-25 17:15:54,270 INFO [56] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223648696420/forward/trajectory.hdf5
+2026-10-25 17:15:54,565 INFO [57] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223704760617/forward/trajectory.hdf5
+2026-10-25 17:15:54,838 INFO [58] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223718928777/forward/trajectory.hdf5
+2026-10-25 17:15:55,142 INFO [59] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223731362863/forward/trajectory.hdf5
+2026-10-25 17:15:55,442 INFO [60] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223750217874/forward/trajectory.hdf5
+2026-10-25 17:15:55,739 INFO [61] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223809941039/forward/trajectory.hdf5
+2026-10-25 17:15:56,016 INFO [62] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223822765101/forward/trajectory.hdf5
+2026-10-25 17:15:56,308 INFO [63] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261009T223835056200/forward/trajectory.hdf5
+2026-10-25 17:15:56,582 INFO [64] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154806015561/forward/trajectory.hdf5
+2026-10-25 17:15:56,876 INFO [65] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154818375387/forward/trajectory.hdf5
+2026-10-25 17:15:57,177 INFO [66] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154833587757/forward/trajectory.hdf5
+2026-10-25 17:15:57,527 INFO [67] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154846947999/forward/trajectory.hdf5
+2026-10-25 17:15:57,827 INFO [68] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154902824581/forward/trajectory.hdf5
+2026-10-25 17:15:58,159 INFO [69] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154919296890/forward/trajectory.hdf5
+2026-10-25 17:15:58,457 INFO [70] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154929712929/forward/trajectory.hdf5
+2026-10-25 17:15:58,757 INFO [71] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154943248874/forward/trajectory.hdf5
+2026-10-25 17:15:59,039 INFO [72] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T154955475838/forward/trajectory.hdf5
+2026-10-25 17:15:59,369 INFO [73] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155010841056/forward/trajectory.hdf5
+2026-10-25 17:15:59,729 INFO [74] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155024513970/forward/trajectory.hdf5
+2026-10-25 17:16:00,070 INFO [75] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155109333559/forward/trajectory.hdf5
+2026-10-25 17:16:00,395 INFO [76] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155125725079/forward/trajectory.hdf5
+2026-10-25 17:16:00,699 INFO [77] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155140618322/forward/trajectory.hdf5
+2026-10-25 17:16:01,054 INFO [78] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155156077567/forward/trajectory.hdf5
+2026-10-25 17:16:01,375 INFO [79] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155313599648/forward/trajectory.hdf5
+2026-10-25 17:16:01,721 INFO [80] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155327689148/forward/trajectory.hdf5
+2026-10-25 17:16:02,014 INFO [81] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155342062009/forward/trajectory.hdf5
+2026-10-25 17:16:02,357 INFO [82] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155356296477/forward/trajectory.hdf5
+2026-10-25 17:16:02,628 INFO [83] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155410374033/forward/trajectory.hdf5
+2026-10-25 17:16:02,927 INFO [84] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155434376792/forward/trajectory.hdf5
+2026-10-25 17:16:03,180 INFO [85] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155443489777/forward/trajectory.hdf5
+2026-10-25 17:16:03,445 INFO [86] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155459922802/forward/trajectory.hdf5
+2026-10-25 17:16:03,750 INFO [87] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155517614632/forward/trajectory.hdf5
+2026-10-25 17:16:04,030 INFO [88] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155529151530/forward/trajectory.hdf5
+2026-10-25 17:16:04,287 INFO [89] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155540241166/forward/trajectory.hdf5
+2026-10-25 17:16:04,555 INFO [90] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155555822166/forward/trajectory.hdf5
+2026-10-25 17:16:04,793 INFO [91] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155607789974/forward/trajectory.hdf5
+2026-10-25 17:16:05,041 INFO [92] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155807754250/forward/trajectory.hdf5
+2026-10-25 17:16:05,352 INFO [93] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155822027952/forward/trajectory.hdf5
+2026-10-25 17:16:05,553 INFO [94] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155844014240/forward/trajectory.hdf5
+2026-10-25 17:16:05,810 INFO [95] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155854182486/forward/trajectory.hdf5
+2026-10-25 17:16:06,041 INFO [96] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155905630182/forward/trajectory.hdf5
+2026-10-25 17:16:06,320 INFO [97] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155915166135/forward/trajectory.hdf5
+2026-10-25 17:16:06,576 INFO [98] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155927369056/forward/trajectory.hdf5
+2026-10-25 17:16:06,802 INFO [99] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T155939935923/forward/trajectory.hdf5
+2026-10-25 17:16:07,124 INFO [100] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T160011446031/forward/trajectory.hdf5
+2026-10-25 17:16:07,381 INFO [101] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T160024765984/forward/trajectory.hdf5
+2026-10-25 17:16:07,681 INFO [102] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T160034245936/forward/trajectory.hdf5
+2026-10-25 17:16:07,928 INFO [103] 转换 /home/cv/gcj/data_collect/data/rotating_red_square_blue_plate/batch_2/20261010T160047426440/forward/trajectory.hdf5
+2026-10-25 17:16:08,333 INFO 核验 batch_2 [1/104] 120 帧
+2026-10-25 17:16:08,360 INFO 核验 batch_2 [2/104] 200 帧
+2026-10-25 17:16:08,379 INFO 核验 batch_2 [3/104] 120 帧
+2026-10-25 17:16:08,400 INFO 核验 batch_2 [4/104] 150 帧
+2026-10-25 17:16:08,417 INFO 核验 batch_2 [5/104] 102 帧
+2026-10-25 17:16:08,433 INFO 核验 batch_2 [6/104] 96 帧
+2026-10-25 17:16:08,456 INFO 核验 batch_2 [7/104] 153 帧
+2026-10-25 17:16:08,476 INFO 核验 batch_2 [8/104] 141 帧
+2026-10-25 17:16:08,492 INFO 核验 batch_2 [9/104] 93 帧
+2026-10-25 17:16:08,509 INFO 核验 batch_2 [10/104] 96 帧
+2026-10-25 17:16:08,527 INFO 核验 batch_2 [11/104] 108 帧
+2026-10-25 17:16:08,544 INFO 核验 batch_2 [12/104] 105 帧
+2026-10-25 17:16:08,562 INFO 核验 batch_2 [13/104] 121 帧
+2026-10-25 17:16:08,578 INFO 核验 batch_2 [14/104] 89 帧
+2026-10-25 17:16:08,596 INFO 核验 batch_2 [15/104] 114 帧
+2026-10-25 17:16:08,613 INFO 核验 batch_2 [16/104] 106 帧
+2026-10-25 17:16:08,628 INFO 核验 batch_2 [17/104] 85 帧
+2026-10-25 17:16:08,646 INFO 核验 batch_2 [18/104] 111 帧
+2026-10-25 17:16:08,665 INFO 核验 batch_2 [19/104] 124 帧
+2026-10-25 17:16:08,681 INFO 核验 batch_2 [20/104] 96 帧
+2026-10-25 17:16:08,700 INFO 核验 batch_2 [21/104] 119 帧
+2026-10-25 17:16:08,716 INFO 核验 batch_2 [22/104] 94 帧
+2026-10-25 17:16:08,737 INFO 核验 batch_2 [23/104] 117 帧
+2026-10-25 17:16:08,755 INFO 核验 batch_2 [24/104] 104 帧
+2026-10-25 17:16:08,772 INFO 核验 batch_2 [25/104] 111 帧
+2026-10-25 17:16:08,792 INFO 核验 batch_2 [26/104] 131 帧
+2026-10-25 17:16:08,810 INFO 核验 batch_2 [27/104] 116 帧
+2026-10-25 17:16:08,829 INFO 核验 batch_2 [28/104] 122 帧
+2026-10-25 17:16:08,845 INFO 核验 batch_2 [29/104] 90 帧
+2026-10-25 17:16:08,863 INFO 核验 batch_2 [30/104] 112 帧
+2026-10-25 17:16:08,880 INFO 核验 batch_2 [31/104] 104 帧
+2026-10-25 17:16:08,898 INFO 核验 batch_2 [32/104] 96 帧
+2026-10-25 17:16:08,914 INFO 核验 batch_2 [33/104] 96 帧
+2026-10-25 17:16:08,930 INFO 核验 batch_2 [34/104] 98 帧
+2026-10-25 17:16:08,947 INFO 核验 batch_2 [35/104] 85 帧
+2026-10-25 17:16:08,964 INFO 核验 batch_2 [36/104] 103 帧
+2026-10-25 17:16:08,978 INFO 核验 batch_2 [37/104] 80 帧
+2026-10-25 17:16:08,993 INFO 核验 batch_2 [38/104] 88 帧
+2026-10-25 17:16:09,010 INFO 核验 batch_2 [39/104] 100 帧
+2026-10-25 17:16:09,029 INFO 核验 batch_2 [40/104] 122 帧
+2026-10-25 17:16:09,045 INFO 核验 batch_2 [41/104] 86 帧
+2026-10-25 17:16:09,063 INFO 核验 batch_2 [42/104] 102 帧
+2026-10-25 17:16:09,078 INFO 核验 batch_2 [43/104] 92 帧
+2026-10-25 17:16:09,093 INFO 核验 batch_2 [44/104] 89 帧
+2026-10-25 17:16:09,109 INFO 核验 batch_2 [45/104] 80 帧
+2026-10-25 17:16:09,123 INFO 核验 batch_2 [46/104] 75 帧
+2026-10-25 17:16:09,138 INFO 核验 batch_2 [47/104] 88 帧
+2026-10-25 17:16:09,154 INFO 核验 batch_2 [48/104] 98 帧
+2026-10-25 17:16:09,171 INFO 核验 batch_2 [49/104] 96 帧
+2026-10-25 17:16:09,187 INFO 核验 batch_2 [50/104] 97 帧
+2026-10-25 17:16:09,204 INFO 核验 batch_2 [51/104] 101 帧
+2026-10-25 17:16:09,219 INFO 核验 batch_2 [52/104] 91 帧
+2026-10-25 17:16:09,237 INFO 核验 batch_2 [53/104] 112 帧
+2026-10-25 17:16:09,253 INFO 核验 batch_2 [54/104] 90 帧
+2026-10-25 17:16:09,269 INFO 核验 batch_2 [55/104] 101 帧
+2026-10-25 17:16:09,285 INFO 核验 batch_2 [56/104] 92 帧
+2026-10-25 17:16:09,301 INFO 核验 batch_2 [57/104] 97 帧
+2026-10-25 17:16:09,317 INFO 核验 batch_2 [58/104] 89 帧
+2026-10-25 17:16:09,334 INFO 核验 batch_2 [59/104] 99 帧
+2026-10-25 17:16:09,350 INFO 核验 batch_2 [60/104] 97 帧
+2026-10-25 17:16:09,367 INFO 核验 batch_2 [61/104] 97 帧
+2026-10-25 17:16:09,382 INFO 核验 batch_2 [62/104] 90 帧
+2026-10-25 17:16:09,398 INFO 核验 batch_2 [63/104] 94 帧
+2026-10-25 17:16:09,414 INFO 核验 batch_2 [64/104] 89 帧
+2026-10-25 17:16:09,430 INFO 核验 batch_2 [65/104] 94 帧
+2026-10-25 17:16:09,448 INFO 核验 batch_2 [66/104] 97 帧
+2026-10-25 17:16:09,466 INFO 核验 batch_2 [67/104] 114 帧
+2026-10-25 17:16:09,482 INFO 核验 batch_2 [68/104] 95 帧
+2026-10-25 17:16:09,500 INFO 核验 batch_2 [69/104] 107 帧
+2026-10-25 17:16:09,517 INFO 核验 batch_2 [70/104] 96 帧
+2026-10-25 17:16:09,533 INFO 核验 batch_2 [71/104] 96 帧
+2026-10-25 17:16:09,548 INFO 核验 batch_2 [72/104] 89 帧
+2026-10-25 17:16:09,565 INFO 核验 batch_2 [73/104] 105 帧
+2026-10-25 17:16:09,584 INFO 核验 batch_2 [74/104] 115 帧
+2026-10-25 17:16:09,601 INFO 核验 batch_2 [75/104] 108 帧
+2026-10-25 17:16:09,619 INFO 核验 batch_2 [76/104] 101 帧
+2026-10-25 17:16:09,635 INFO 核验 batch_2 [77/104] 92 帧
+2026-10-25 17:16:09,652 INFO 核验 batch_2 [78/104] 108 帧
+2026-10-25 17:16:09,669 INFO 核验 batch_2 [79/104] 100 帧
+2026-10-25 17:16:09,687 INFO 核验 batch_2 [80/104] 109 帧
+2026-10-25 17:16:09,703 INFO 核验 batch_2 [81/104] 94 帧
+2026-10-25 17:16:09,721 INFO 核验 batch_2 [82/104] 111 帧
+2026-10-25 17:16:09,738 INFO 核验 batch_2 [83/104] 87 帧
+2026-10-25 17:16:09,754 INFO 核验 batch_2 [84/104] 96 帧
+2026-10-25 17:16:09,769 INFO 核验 batch_2 [85/104] 81 帧
+2026-10-25 17:16:09,784 INFO 核验 batch_2 [86/104] 85 帧
+2026-10-25 17:16:09,802 INFO 核验 batch_2 [87/104] 100 帧
+2026-10-25 17:16:09,819 INFO 核验 batch_2 [88/104] 90 帧
+2026-10-25 17:16:09,835 INFO 核验 batch_2 [89/104] 82 帧
+2026-10-25 17:16:09,850 INFO 核验 batch_2 [90/104] 85 帧
+2026-10-25 17:16:09,864 INFO 核验 batch_2 [91/104] 75 帧
+2026-10-25 17:16:09,878 INFO 核验 batch_2 [92/104] 78 帧
+2026-10-25 17:16:09,895 INFO 核验 batch_2 [93/104] 99 帧
+2026-10-25 17:16:09,908 INFO 核验 batch_2 [94/104] 63 帧
+2026-10-25 17:16:09,923 INFO 核验 batch_2 [95/104] 81 帧
+2026-10-25 17:16:09,937 INFO 核验 batch_2 [96/104] 74 帧
+2026-10-25 17:16:09,953 INFO 核验 batch_2 [97/104] 89 帧
+2026-10-25 17:16:09,968 INFO 核验 batch_2 [98/104] 81 帧
+2026-10-25 17:16:09,982 INFO 核验 batch_2 [99/104] 72 帧
+2026-10-25 17:16:09,999 INFO 核验 batch_2 [100/104] 102 帧
+2026-10-25 17:16:10,015 INFO 核验 batch_2 [101/104] 80 帧
+2026-10-25 17:16:10,033 INFO 核验 batch_2 [102/104] 95 帧
+2026-10-25 17:16:10,047 INFO 核验 batch_2 [103/104] 77 帧
+2026-10-25 17:16:10,062 INFO 核验 batch_2 [104/104] 70 帧
+{"episodes": 104, "frames": 10333, "output": "/home/cv/gcj/project/data_transfer/to_pi/after_tranfer/batch_2", "batches": ["batch_2"], "batch": "batch_2", "videos": 208, "validated": true, "validation": "全量来源SHA256、Parquet数值、标签、索引与全部视频解码通过；未运行真实LeRobot loader或训练"}
