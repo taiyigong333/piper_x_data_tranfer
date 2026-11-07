@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    {"root": "/home/cv/gcj/data_collect/data/rotating_red_square_blue_plate", "batches": [2, 3, 4]},
+    {"root": "/home/cv/gcj/data_collect/data/rotating_red_square", "batches": [5]}
+  ],
+  "output": "../after_transfer/piperx_rotating_red_square",
+  "language": "grab the rotating red square",
+  "fps": 30,
+  "image_size": [224, 224],
+  "max_image_error_s": 0.1,
+  "max_robot_gap_s": 0.1,
+  "workers": 12,
+  "action_source": "next_observed_state"
+}
